@@ -16,7 +16,7 @@ public void testValidLogin() {
 		loginPage.enterPassword("admin");
 		loginPage.clickLogin();
 		System.out.println(driver.getTitle());
-		Assert.assertEquals(driver.getTitle(),"Dashboard / /nopCommerce administration");
+		Assert.assertEquals(driver.getTitle(),"Dashboard / nopCommerce administration");
 	}
 	
 	
